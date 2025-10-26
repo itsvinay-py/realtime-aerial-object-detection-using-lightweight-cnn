@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #f397fa, #72e2ea, #c6fa7d);
+  min-height: 100vh;
+  margin: 0;
+}
+h2 {
+  margin-top: 40px;
+  color: #444;
+  text-shadow: 1px 2px 6px #fffaf7;
+}
+input[type="file"] {
+  margin: 16px 0;
+  padding: 8px;
+  border-radius: 8px;
+  background: #fffaf7;
+  border: 2px solid #fb72d4;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+#image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 18px;
+  box-shadow: 0 16px 24px rgba(20, 42, 81, 0.2);
+  border-radius: 16px;
+  background: #ffffffd9;
+}
+#image {
+  max-width: 90%;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(66, 66, 105, 0.14);
+}
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+#status {
+  margin: 18px;
+  font-size: 1.3em;
+  color: #6251fa;
+}

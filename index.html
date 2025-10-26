@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Object Detection</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+</head>
+<body>
+  <h2>Upload an Image for Object Detection</h2>
+  <input type="file" id="upload" accept="image/*" />
+  <div id="image-container">
+    <img id="image" alt="Uploaded Image" />
+    <canvas id="canvas"></canvas>
+  </div>
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
