@@ -1,0 +1,2 @@
+# realtime-aerial-object-detection-using-lightweight-cnn
+ChatGPT said:  A real-time aerial object detection web app using a lightweight CNN model (COCO-SSD). Built with HTML, CSS, and JavaScript, it detects and labels objects from aerial footage instantly, ensuring high accuracy and efficiency while maintaining fast performance on edge or browser-based environments.
